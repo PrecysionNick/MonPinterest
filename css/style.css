@@ -1,0 +1,38 @@
+.grid {
+  background: white;
+  max-width: 100%;
+}
+
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  float: left;
+}
+
+
+@media (min-width: 320px) and (max-width: 490px) {
+    
+.grid-sizer,
+    .grid-item {
+        width: 33%;
+}
+
+}
+
+.grid-sizer,
+    .grid-item {
+        width: 33%;
+}
+
+
+.grid-item img { width: 100%;
+}
+
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
